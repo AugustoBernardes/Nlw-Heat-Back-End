@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config()
 
-// Dotenv variables
+// Dotenv all variables
 const PORT = process.env.PORT
 
 const app = express();
