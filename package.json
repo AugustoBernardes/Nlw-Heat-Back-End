@@ -1,0 +1,21 @@
+{
+  "name": "nlw_heat",
+  "version": "1.0.0",
+  "description": "system created learned on course from Rocketseat",
+  "main": "index.js",
+  "author": "Augusto Bernardes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "prisma": "^3.10.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
