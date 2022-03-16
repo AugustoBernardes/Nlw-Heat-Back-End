@@ -1,10 +1,13 @@
 import { Router } from "express";
 import { AuthenticateUserController } from "./controllers/AuthenticateUserController";
+import { CreateMessageController } from "./controllers/CreateMessageControllet";
+import { ensureAuthenticated } from "./middleware/ensureAuthenticated"
 
 const router = Router();
 
 
-const  authenticateUserController = new AuthenticateUserController()
+const authenticateUserController = new AuthenticateUserController();
+const createMessageController = new CreateMessageController();
 
 // Login with GitHub
 // =====================
@@ -21,5 +24,9 @@ router.get("/signin/callback", (request,response) =>{
 // Authenticate
 // ======================
 router.post("/authenticate",  authenticateUserController.handle)
+
+// Messages
+// ======================
+router.post("/messages",ensureAuthenticated,createMessageController.handle)
 
 export { router }

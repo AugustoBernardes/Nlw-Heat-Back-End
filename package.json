@@ -6,7 +6,7 @@
   "author": "Augusto Bernardes",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/app.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "^3.10.0",
