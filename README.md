@@ -16,6 +16,7 @@
 + On .env put all your variables 
 + Server will run in localhost !
 + To get GitHub Id's use developer settings
++ Front End will be ready soon
 ---
 ## Technologies Used:
 
