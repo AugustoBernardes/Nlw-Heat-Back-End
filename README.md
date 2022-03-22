@@ -2,7 +2,7 @@
 
 >Status: Finished ✔️
 
-### That's a Api system developed on course from [Rocketseat](https://www.rocketseat.com.br), a api to login on GitHub and a chat using socket.io
+### That's a Api system developed on [Rocketseat](https://www.rocketseat.com.br) course, a api to login on GitHub and a chat using socket.io
 ---
 ## Sistem functions 
 + Login using GitHub oauth
@@ -16,7 +16,7 @@
 + On .env put all your variables 
 + Server will run in localhost !
 + To get GitHub Id's use developer settings
-+ Front End will be ready soon
++ Front End is on this [repository](https://github.com/AugustoBernardes/Nlw-Heat-Front-End)
 ---
 ## Technologies Used:
 
